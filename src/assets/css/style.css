@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'kala';
+    font-weight: 100;
+    src: url(../fonts/KalamehWeb_thin.woff) format("woff");
+  }
+  @font-face {
+    font-family: 'kala';
+    font-weight: 300;
+    src: url(../fonts/KalamehWeb_Regular.woff) format("woff");
+  }
+  @font-face {
+    font-family: 'kala';
+    font-weight: 700;
+    src: url(../fonts/KalamehWeb_Bold.woff) format("woff");
+  }
+  @font-face {
+    font-family: 'kala';
+    font-weight: 900;
+    src: url(../fonts/KalamehWeb_Black.woff) format("woff");
+  }
+  @font-face {
+    font-family: 'diba';
+    font-weight: 300;
+    src: url(../fonts/KalamehWeb_Regular.woff) format("woff");
+  }
+}
+:root{
+  --dd: #dddddd;
+  --c90: #909090;
+}
+body {
+  direction: rtl;
+  font-family: "kala";
+  font-weight: 300;
+}
+
+
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 639.98px) {
+
+}
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 640px) and (max-width: 767.98px) {
+}
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 1023.98px) {
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 1024px) and (max-width: 1279px) {
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1280px) and (max-width: 1535.98px) {
+  
+}
+@media (min-width: 1536px) {
+}
