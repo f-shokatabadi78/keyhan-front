@@ -4,52 +4,157 @@
 
 @layer base {
   @font-face {
-    font-family: 'kala';
+    font-family: 'Shabnam';
     font-weight: 100;
-    src: url(../fonts/KalamehWeb_thin.woff) format("woff");
+    src: url(../fonts/Shabnam-Light.woff) format("woff");
   }
   @font-face {
-    font-family: 'kala';
+    font-family: 'Shabnam';
     font-weight: 300;
-    src: url(../fonts/KalamehWeb_Regular.woff) format("woff");
+    src: url(../fonts/Shabnam.woff) format("woff");
   }
   @font-face {
-    font-family: 'kala';
-    font-weight: 700;
-    src: url(../fonts/KalamehWeb_Bold.woff) format("woff");
-  }
-  @font-face {
-    font-family: 'kala';
+    font-family: 'Shabnam';
     font-weight: 900;
-    src: url(../fonts/KalamehWeb_Black.woff) format("woff");
+    src: url(../fonts/Shabnam-Bold.woff) format("woff");
   }
-  @font-face {
-    font-family: 'diba';
-    font-weight: 300;
-    src: url(../fonts/KalamehWeb_Regular.woff) format("woff");
+  .btn-border{
+    @apply border-orange-500;
+    @apply text-orange-500;
+    @apply bg-ff ;
+    @apply border;
+    @apply py-2;
+    @apply px-6;
+    @apply rounded-lg;
+    @apply text-base;
+    @apply font-bold;
   }
 }
 :root{
   --dd: #dddddd;
   --c90: #909090;
+  --border1: #f3f4f6;
+  --orange: #F97316;
+
 }
 body {
   direction: rtl;
-  font-family: "kala";
+  font-family: "shabnam";
   font-weight: 300;
 }
+a , li , img , div{
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+/* header */
 
+.header{
+  background-image: url(../img/bgright-header.svg) ,
+   url(../img/bgleft-header.svg);
+  background-position: center right, center left;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
 
+/* logo */
 
+.logo-area img{
+  transform: scale(1.3);
+  transform-origin: right;
+}
+
+/* search */
+
+.vuesax-app-is-rtl .vs-input--icon.icon-after{
+  border-right: 0px solid rgba(0,0,0,.1) !important;
+}
+.input-span-placeholder{
+  padding: 12px 10px !important;
+}
+.search .vs-con-input-label{
+  width: 100% ;
+}
+.vuesax-app-is-rtl .vs-input--icon.icon-after {
+  padding: 4px 7px !important;
+}
+.search .vs-input--input{
+  border-radius: 8px !important;
+}
+.search input{
+  line-height: 26px;
+}
+
+/* login to account */
+
+.btn-border{
+  box-shadow: 0 0 0px 0px #f974166c;
+  position: relative;
+  top: 0;
+}
+.btn-border:hover{
+  box-shadow: 0px 5px 25px -12px #f974168c;
+  top: -3px;
+}
+.btncart a{
+  box-shadow: 0 0 0px 0px #9CA3AF ;
+  position: relative;
+  top: 0;
+}
+.btncart a:hover{
+  box-shadow: 0px 5px 15px -5px #9ca3af8a;
+  position: relative;
+  top: -2px;
+}
+.num-cart{
+  height: 15px;
+  width: 15px;
+  font-size: 12px;
+  background: #EF4444;
+  text-align: center;
+  margin: auto;
+  border-radius: 99px;
+  color: #fff;
+  top: -10px;
+  right: -6px;
+}
+/* menu */
+.btn-collaps .mega-araea{
+  position: absolute;
+  width: 0;
+}
+.btn-collaps:hover .mega-araea{
+width: 100%;
+}
+.main-menu ul li{
+  display: inline-block;
+}
+.main-menu ul li a{
+  padding: 10px 15px;
+  font-weight: 200;
+}
 /* // Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 639.98px) {
-
+  .logo-area img{
+    transform: scale(1);
+    transform-origin: right;
+  }
 }
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 640px) and (max-width: 767.98px) {
+  .logo-area img{
+    transform: scale(1);
+    transform-origin: right;
+  }
 }
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 1023.98px) {
+  .logo-area img{
+    transform: scale(1);
+    transform-origin: right;
+  }
 }
 
 /* // Large devices (desktops, 992px and up) */

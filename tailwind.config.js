@@ -1,10 +1,15 @@
+const colors = require('tailwindcss/colors')
+
 module.exports = {
   purge: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    colors:{
+      orange: colors.orange,
+      cool: colors.coolGray,
+    },
     fontFamily: {
-      'diba': ['diba'],
-      'kala': ['kala'],
+      'fd': ['Shabnam'],
      },
     extend: {
       gap: {
