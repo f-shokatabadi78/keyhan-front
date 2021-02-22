@@ -1,5 +1,5 @@
 <template>
-  <header class="header-area">
+  <header id="#header" class="header-area">
     <section class="header py-8 bg-cool-50 ">
       <div class="container m-auto">
         <div class="grid grid-cols-12 gap-30">
@@ -51,7 +51,7 @@
     <section class="navmenu py-4 border-cool-100 border">
       <div class="container m-auto">
         <div class="grid grid-cols-12 gap-30 ">
-          <div class="lg:col-span-10">
+          <div class="col-span-6 lg:col-span-10">
             <div class="btn-collaps inline-block">
               <a class="px-6 py-2 bg-cool-600 text-ff rounded-lg" href="#"
                 >دسته بندی ها<i class="mr-2 text-cool-50 fal fa-bars"></i
