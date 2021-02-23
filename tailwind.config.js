@@ -22,6 +22,7 @@ module.exports = {
       orange: colors.orange,
       cool: colors.coolGray,
       red: colors.red,
+      blue: colors.lightBlue,
     },
     fontFamily: {
       'fd': ['Shabnam'],

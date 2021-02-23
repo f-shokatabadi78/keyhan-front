@@ -70,7 +70,7 @@
                   </li>
                   <li>
                     <a href="#" title="blogcat">دانشنامه</a
-                    ><span class="vs-breadcrum--separator"></span>
+                    >
                   </li>
                 </vs-breadcrumb>
               </div>
@@ -445,8 +445,8 @@
               
             </div>
             <div class="paganition mt-5 mx-auto">
-                  <vs-pagination :total="12" :icon-pack="fal" 
-                  :prev-icon="fa-arrow-right" :next-icon="fa-arrow-left" :color="colorx" v-model="currentx"></vs-pagination>
+                  <vs-pagination :total="12" icon-pack="fal" 
+                  prev-icon="fa-arrow-right" next-icon="fa-arrow-left" :color="colorx" v-model="currentx"></vs-pagination>
             </div>
           </div>
           <div class="col-span-12 md:col-span-6">

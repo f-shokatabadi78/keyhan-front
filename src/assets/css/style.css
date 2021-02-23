@@ -29,12 +29,18 @@
     @apply text-base;
     @apply font-bold;
   }
+  h5{
+    @apply text-sm;
+    @apply font-bold;
+    @apply text-cool-700;
+  }
 }
 :root{
   --dd: #dddddd;
   --c90: #909090;
   --border1: #f3f4f6;
   --orange: #F97316;
+  --cart: #38BDF8;
 
 }
 body {
@@ -44,7 +50,7 @@ body {
 }
 a , li , img , div ,
 .owl-theme .owl-dots .owl-dot span
-,.link-cat , article {
+,.link-cat , article ,button{
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   -ms-transition: all 0.3s;
@@ -431,6 +437,77 @@ li.main-share:hover >a >span >i{
 .share-menu li ul li:hover{
   transform: scale(1.1) ;
 }
+/* product */
+.colors button:hover ,.colors button.selected{
+  transform: scale(1.4);
+}
+:-moz-focusring{
+  outline:0px dotted #333 !important;
+}
+button:focus{
+  outline: 0 dotted !important;
+}
+.des-product ul li{
+display: block;
+@apply text-xs;
+@apply font-thin;
+@apply py-1;
+@apply pr-4;
+@apply relative;
+}
+.des-product ul li::before{
+  content: "\f00c";
+  font-family: "Font Awesome 5 Pro" ;
+  position: absolute;
+  top: 4px;
+  right: 0;
+  color: var(--orange);
+}
+.owl-stage-outer{
+  @apply border-cool-200;
+  @apply border;
+  @apply rounded-lg;
+}
+.btn-customize button{
+  display: block;
+  width: 100%;
+}
+.block-btn button{
+  padding: 7px 20px !important;
+  display: block;
+  width: 100%;
+}
+.vuesax-app-is-rtl .vs-input-number button.vs-input-number--button-less {
+  -webkit-transform: translate(-10px) !important;
+  transform: translate(-10px) !important;
+}
+.vuesax-app-is-rtl .vs-input-number button.vs-input-number--button-plus {
+  -webkit-transform: translate(-10px) !important;
+  transform: translate(10px) !important;
+}
+.vs-input-number{
+  width: min-content ;
+}
+.num-pro .vs-input-number{
+  margin: 15px auto 0px !important;
+}
+.con-slot-tabs {
+  @apply border-cool-200;
+  @apply border;
+  @apply p-3 !important;
+  @apply mt-2;
+  @apply rounded-lg;
+  @apply rounded-tr-none;
+}
+.vs-tabs--content{
+  padding: 0 !important;
+}
+.save-product-s.vs-button{
+border-radius: 99px !important;
+@apply border !important;
+@apply border-cool-100 !important;
+
+}
 /* // Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 639.98px) {
   .logo-area img{
@@ -452,7 +529,7 @@ li.main-share:hover >a >span >i{
     top: 12px;
   }
   .dynamic-img::after{
-    background: url( );
+    background: url();
   }
 }
 /* // Small devices (landscape phones, 576px and up) */
