@@ -371,6 +371,9 @@ img.image-comment{
   background-color: #F9FAFB !important;
   border: 1px solid #D1D5DB !important;
 }
+.vs-pagination--buttons:hover i {
+  color: #1f2937 !important;
+}
 .contactform h4{
   font-size: .85rem !important;
   color: rgba(0,0,0,.4);
@@ -512,6 +515,106 @@ display: block;
   right: 10px;
   z-index: 10;
 }
+/* product-downloud */
+.single-downloud-page .breadcumb nav{
+  display: inline-block;
+}
+.single-downloud-page .circle::before{
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background: url(../img/circle.svg);
+  background-position: center left;
+  background-repeat: no-repeat;
+  top: 12px;
+  right: -36px;
+}
+.single-downloud-page .circle::after{
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background: url(../img/circle.svg);
+  background-position: center left;
+  background-repeat: no-repeat;
+  transform: rotate(180deg);
+  top: 12px;
+  left: -36px;
+}
+
+element {
+
+  border: 0px solid rgb(209, 213, 219);
+      border-top-color: rgb(209, 213, 219);
+      border-top-style: solid;
+      border-top-width: 0px;
+      border-right-color: rgb(209, 213, 219);
+      border-right-style: solid;
+      border-right-width: 0px;
+      border-bottom-color: rgb(209, 213, 219);
+      border-bottom-style: solid;
+      border-bottom-width: 0px;
+      border-left-color: rgb(209, 213, 219);
+      border-left-style: solid;
+      border-left-width: 0px;
+  background: transparent none repeat scroll 0% 0%;
+  color: rgb(209, 213, 219);
+
+}
+.vuesax-app-is-rtl .includeIcon {
+
+  float: right;
+
+}
+.save-product-d.vs-button {
+
+  border-radius: 99px !important;
+  border-width: 1px !important;
+  --tw-border-opacity: 1 !important;
+  border-color: rgba(243, 244, 246, var(--tw-border-opacity)) !important;
+  border-style: solid !important;
+  position: absolute;
+  top: 140px;
+  right: 10px;
+  z-index: 10;
+}
+/* star vote */
+.starRating:not(old){
+  display        : inline-block;
+  width          : 7.5em;
+  height         : 1.5em;
+  overflow       : hidden;
+  vertical-align : bottom;
+}
+.starRating:not(old) > input{
+  margin-right : -13px;
+  opacity      : 0;
+}
+.starRating:not(old) > label{
+  display         : block;
+  float           : right;
+  position        : relative;
+  background      : url('../img/star-off.svg');
+  background-repeat: no-repeat;
+  background-size : contain;
+}
+.starRating:not(old) > label:before{
+  content         : '';
+  display         : block;
+  width           : 1.5em;
+  height          : 1.5em;
+  background      : url('../img/star-on.svg');
+  background-size : contain;
+  background-repeat: no-repeat;
+  opacity         : 0;
+  transition      : opacity 0.2s linear;
+}
+.starRating:not(old) > label:hover:before,
+.starRating:not(old) > label:hover ~ label:before,
+.starRating:not(:hover) > :checked ~ label:before{
+  opacity : 1;
+}
 /* // Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 639.98px) {
   .logo-area img{
@@ -535,6 +638,10 @@ display: block;
   .dynamic-img::after{
     background: url();
   }
+  .starRating:not(old) > input{
+    margin-right : -23px;
+    opacity      : 0;
+  }
 }
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 640px) and (max-width: 767.98px) {
@@ -545,6 +652,10 @@ display: block;
   .more-border::before{
     top: 0px;
   }
+  .starRating:not(old) > input{
+    margin-right : -23px;
+    opacity      : 0;
+  }
 }
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 1023.98px) {
@@ -554,6 +665,10 @@ display: block;
   }
   .more-border::before{
     top: 0px;
+  }
+  .starRating:not(old) > input{
+    margin-right : -23px;
+    opacity      : 0;
   }
 }
 

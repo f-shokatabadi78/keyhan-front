@@ -3,9 +3,9 @@ import VueRouter from 'vue-router'
 import Home from '../views/pages/Home.vue'
 import Blog from '../views/pages/Blog.vue'
 import Product from '../views/pages/Product.vue'
+import Productd from '../views/pages/Pruductd.vue'
 import ArchiveProduct from '../views/pages/ArchiveProduct.vue'
 import ArchiveBlog from '../views/pages/ArchiveBlog.vue'
-
 
 Vue.use(VueRouter)
 
@@ -24,6 +24,11 @@ const routes = [
     path: '/product',
     name: 'Product',
     component: Product
+  },
+  {
+    path: '/productd',
+    name: 'Productd',
+    component: Productd
   },
   {
     path: '/archiveproduct',
