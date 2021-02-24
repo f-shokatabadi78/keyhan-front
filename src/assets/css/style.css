@@ -503,10 +503,14 @@ display: block;
   padding: 0 !important;
 }
 .save-product-s.vs-button{
-border-radius: 99px !important;
-@apply border !important;
-@apply border-cool-100 !important;
-
+  border-radius: 99px !important;
+  @apply border !important;
+  @apply border-cool-100 !important;
+  @apply border-solid !important;
+  position: absolute;
+  top: 60px;
+  right: 10px;
+  z-index: 10;
 }
 /* // Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 639.98px) {
