@@ -463,7 +463,7 @@ display: block;
   right: 0;
   color: var(--orange);
 }
-.owl-stage-outer{
+.landing-product .owl-stage-outer{
   @apply border-cool-200;
   @apply border;
   @apply rounded-lg;
