@@ -601,6 +601,45 @@ display: block;
 .cart-area .cart-item:last-child ,.cart-area .cart-item:first-child{
   border: 0px solid #333 !important;
 }
+
+/* checkout */
+.pay-model .con-vs-radio{
+  justify-content: start;
+  @apply text-cool-500;
+  font-size: 15px;
+}
+.coupon .vs-con-input-label ,
+.address-popup .vs-con-input-label
+,.add-address textarea{
+  width: 100% !important;
+}
+.coupon button{
+  position: absolute;
+  top: 39px;
+  left: 3px;
+  font-size: 13px;
+  padding: 7px 10px !important;
+}
+.coupon span.input-span-placeholder,
+.address-popup span.input-span-placeholder{
+  padding-top: 10px;
+  font-size: 12px !important;
+}
+.add-address{
+  cursor: pointer;
+}
+.vs-radio--borde {
+  border: 2px solid #c8c8c8 !important;
+}
+.vs-popup--content{
+  overflow-x: hidden !important;
+}
+.vs-select--input ,.vs-con-textarea{
+  border: 1px solid rgba(0, 0, 0, 0.2) !important;
+}
+.vs-popup--close{
+  padding: 8px 12px !important;
+}
 /* // Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 639.98px) {
   .logo-area img{

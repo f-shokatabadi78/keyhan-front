@@ -5,6 +5,7 @@ import Blog from '../views/pages/Blog.vue'
 import Product from '../views/pages/Product.vue'
 import Productd from '../views/pages/Pruductd.vue'
 import Cart from '../views/pages/cart.vue'
+import Checkout from '../views/pages/checkout.vue'
 import ArchiveProduct from '../views/pages/ArchiveProduct.vue'
 import ArchiveBlog from '../views/pages/ArchiveBlog.vue'
 
@@ -35,6 +36,11 @@ const routes = [
     path: '/cart',
     name: 'Cart',
     component: Cart
+  },
+  {
+    path: '/checkout',
+    name: 'Checkout',
+    component: Checkout
   },
   {
     path: '/archiveproduct',
