@@ -28,6 +28,10 @@ module.exports = {
       'fd': ['Shabnam'],
      },
     extend: {
+      minHeight:{
+        '90' : '90%',
+
+      },
       gap: {
         '15': '15px',
         '30' : '30px',

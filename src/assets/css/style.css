@@ -542,30 +542,8 @@ display: block;
   top: 12px;
   left: -36px;
 }
-
-element {
-
-  border: 0px solid rgb(209, 213, 219);
-      border-top-color: rgb(209, 213, 219);
-      border-top-style: solid;
-      border-top-width: 0px;
-      border-right-color: rgb(209, 213, 219);
-      border-right-style: solid;
-      border-right-width: 0px;
-      border-bottom-color: rgb(209, 213, 219);
-      border-bottom-style: solid;
-      border-bottom-width: 0px;
-      border-left-color: rgb(209, 213, 219);
-      border-left-style: solid;
-      border-left-width: 0px;
-  background: transparent none repeat scroll 0% 0%;
-  color: rgb(209, 213, 219);
-
-}
 .vuesax-app-is-rtl .includeIcon {
-
   float: right;
-
 }
 .save-product-d.vs-button {
 
@@ -615,6 +593,14 @@ element {
 .starRating:not(:hover) > :checked ~ label:before{
   opacity : 1;
 }
+/* cart */
+.ptitle-cart{
+  height: 50px;
+  max-width: 290px;
+}
+.cart-area .cart-item:last-child ,.cart-area .cart-item:first-child{
+  border: 0px solid #333 !important;
+}
 /* // Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 639.98px) {
   .logo-area img{
@@ -641,6 +627,9 @@ element {
   .starRating:not(old) > input{
     margin-right : -23px;
     opacity      : 0;
+  }
+  .cart-area .cart-item:first-child{
+    display: none;
   }
 }
 /* // Small devices (landscape phones, 576px and up) */
