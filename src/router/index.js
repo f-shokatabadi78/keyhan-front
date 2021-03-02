@@ -6,6 +6,14 @@ import Product from '../views/pages/Product.vue'
 import Productd from '../views/pages/Pruductd.vue'
 import Cart from '../views/pages/cart.vue'
 import Checkout from '../views/pages/checkout.vue'
+import Profile from '../views/pages/profile.vue'
+import Dashboard from '../views/pages/profile/dashboard.vue'
+import Myorder from '../views/pages/profile/myorder.vue'
+import Myorder1 from '../views/pages/profile/myorder1.vue'
+import Downloads from '../views/pages/profile/downloads.vue'
+import Wishlist from '../views/pages/profile/wishlist.vue'
+import Address from '../views/pages/profile/address.vue'
+import MyAccount from '../views/pages/profile/myaccount.vue'
 import ArchiveProduct from '../views/pages/ArchiveProduct.vue'
 import ArchiveBlog from '../views/pages/ArchiveBlog.vue'
 
@@ -41,6 +49,21 @@ const routes = [
     path: '/checkout',
     name: 'Checkout',
     component: Checkout
+  },
+
+  {
+    path: '/profile/',
+    component: Profile,
+    children:[
+      { path: '', component: Dashboard },
+      { path: 'Dashboard', component: Dashboard },
+      { path: 'myorder', component: Myorder },
+      { path: 'myorder1', component: Myorder1 },
+      { path: 'downloads', component: Downloads },
+      { path: 'wishlist', component: Wishlist },
+      { path: 'address', component: Address },
+      { path: 'myaccount', component: MyAccount },
+    ]
   },
   {
     path: '/archiveproduct',

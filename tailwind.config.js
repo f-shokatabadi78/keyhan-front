@@ -6,6 +6,7 @@ module.exports = {
   theme: {
     boxShadow:{
       my: '0 15px 45px 0px rgb(75 85 99 / 15%)',
+      p: '0 4px 25px 0px rgb(75 85 99 / 10%)',
       neon :'5px 5px 10px -5px rgba(0, 0, 0, 0.2) , -3px -2px 2px 2px #fff ,-4px -3px 4px 0px #fff',
       sm: '0 1px 2px 0 rgba(0, 0, 0, 0.05)',
       DEFAULT: '0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)',
@@ -23,6 +24,7 @@ module.exports = {
       cool: colors.coolGray,
       red: colors.red,
       blue: colors.lightBlue,
+      green: colors.lime,
     },
     fontFamily: {
       'fd': ['Shabnam'],

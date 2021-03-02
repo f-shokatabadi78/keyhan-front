@@ -20,10 +20,10 @@
                 <div class="col-span-6 md:col-span-1 text-center "> 
                   <h5>قیمت واحد</h5>
                 </div>
-                <div class="col-span-6 md:col-span-1  text-center">
+                <div class="col-span-6 md:col-span-1 text-center">
                   <h5> تعداد</h5>
                 </div>
-                <div class="col-span-12 md:col-span-1  text-center"> 
+                <div class="col-span-12 md:col-span-1 text-center"> 
                   <h5>قیمت کل</h5>
                 </div>
               </div>
@@ -56,7 +56,7 @@
                 </div>
                 <div class="col-span-6 md:col-span-1 text-center "> 
                   <div class="area-unitprice border-b pb-2 border-dashed md:border-b-0 border-cool-200 md:border-l md:border-r md:border-dashed md:border-cool-300 min-h-90 flex items-center align-middle">
-                    <div class="block lg:hidden">
+                    <div class="block md:hidden">
                       <h5>قیمت واحد: </h5>
                     </div>
                     <div class=" m-auto">
@@ -69,7 +69,7 @@
                 </div>
                 <div class="col-span-6 md:col-span-1 text-center">
                   <div class="unit-cart border-b pb-2 border-dashed md:border-b-0 border-cool-200 min-h-90 m-auto flex items-center align-middle">
-                    <div class="block lg:hidden">
+                    <div class="block md:hidden">
                       <h5>تعداد: </h5>
                     </div>
                     <div class=" text-center m-auto px-2">
@@ -79,7 +79,7 @@
                 </div>
                 <div class="col-span-6 md:col-span-1  text-center"> 
                   <div class="hole-cart md:border-r md:border-dashed md:border-cool-300 m-auto min-h-90 flex items-center align-middle">
-                    <div class="block lg:hidden">
+                    <div class="block md:hidden">
                       <h5>قیمت کل: </h5>
                     </div>
                     <div class=" m-auto">
@@ -119,7 +119,7 @@
                 </div>
                 <div class="col-span-6 md:col-span-1 text-center "> 
                   <div class="area-unitprice border-b pb-2 border-dashed md:border-b-0 border-cool-200 md:border-l md:border-r md:border-dashed md:border-cool-300 min-h-90 flex items-center align-middle">
-                    <div class="block lg:hidden">
+                    <div class="block md:hidden">
                       <h5>قیمت واحد: </h5>
                     </div>
                     <div class=" m-auto">
@@ -132,7 +132,7 @@
                 </div>
                 <div class="col-span-6 md:col-span-1 text-center">
                   <div class="unit-cart border-b pb-2 border-dashed md:border-b-0 border-cool-200 min-h-90 m-auto flex items-center align-middle">
-                    <div class="block lg:hidden">
+                    <div class="block md:hidden">
                       <h5>تعداد: </h5>
                     </div>
                     <div class=" text-center m-auto px-2">
@@ -142,7 +142,7 @@
                 </div>
                 <div class="col-span-6 md:col-span-1  text-center"> 
                   <div class="hole-cart md:border-r md:border-dashed md:border-cool-300 m-auto min-h-90 flex items-center align-middle">
-                    <div class="block lg:hidden">
+                    <div class="block md:hidden">
                       <h5>قیمت کل: </h5>
                     </div>
                     <div class=" m-auto">
@@ -153,6 +153,7 @@
                   </div>
                 </div>
               </div>
+              
               
             </div>
             <div class="btn-go-back text-center -mt-3">

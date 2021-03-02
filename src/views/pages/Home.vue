@@ -12,27 +12,42 @@
               :margin="5"
               :loop="true"
             >
+            <a href="">
               <img src="@/assets/img/slider/slider01.jpg" />
-              <img src="@/assets/img/slider/slider02.jpg" />
+            </a>
+            <a href="">
               <img src="@/assets/img/slider/slider01.jpg" />
-              <img src="@/assets/img/slider/slider02.jpg" />
+            </a>
+            <a href="">
+              <img src="@/assets/img/slider/slider01.jpg" />
+            </a>
+            <a href="">
+              <img src="@/assets/img/slider/slider01.jpg" />
+            </a>
+
             </carousel>
           </div>
           <div class="col-span-12 md:col-span-3 banner-area">
             <div class="grid grid-cols-2 gap-5">
             <div class="col-span-1 md:col-span-2 banner-top">
-              <img
-                class="rounded-lg"
-                src="@/assets/img/banner/banner01.jpg"
-                alt=""
-              />
+              <a href="">
+                <img
+                  class="rounded-lg"
+                  src="@/assets/img/banner/banner01.jpg"
+                  alt=""
+                />
+              </a>
+
             </div>
             <div class="col-span-1 md:col-span-2 banner-bottom">
-              <img
-                class="rounded-lg"
-                src="@/assets/img/banner/banner02.jpg"
-                alt=""
-              />
+              <a href="">
+                <img
+                  class="rounded-lg"
+                  src="@/assets/img/banner/banner02.jpg"
+                  alt=""
+                />
+              </a>
+
             </div>
             </div>
           </div>
@@ -227,6 +242,7 @@
         <div class="grid grid-cols-12">
           <div class="col-span-12 product-area">
             <carousel
+              :navText="['','']"
               :items="5"
               :autoplayHoverPause="true"
               :autoplay="true"
@@ -520,6 +536,7 @@
         <div class="grid grid-cols-12">
           <div class="col-span-12 product-area">
             <carousel
+              :navText="['','']"
               :items="4"
               :autoplayHoverPause="true"
               :autoplay="true"
@@ -534,9 +551,17 @@
               1254:{items:4,nav:true},
               1470:{items:4,nav:true}}"
             >
+              
               <div
-                class="item-course border border-cool-100 rounded-lg hover:shadow-xl mb-10 mt-2"
+                class="item-course border border-cool-100 rounded-lg hover:shadow-xl mb-10 mt-2 relative"
               >
+               <vs-button
+                  class="save-product"
+                  color="#D1D5DB"
+                  type="flat"
+                  icon-pack="fal"
+                  icon=" fa-bookmark"    
+                ></vs-button>
                 <div class="img-course">
                   <a class="img-thum" href="">
                     <img src="@/assets/img/product/02.png" alt="" />
@@ -558,8 +583,15 @@
                 </div>
               </div>
               <div
-                class="item-course border border-cool-100 rounded-lg hover:shadow-xl mb-10 mt-2"
+                class="item-course border border-cool-100 rounded-lg hover:shadow-xl mb-10 mt-2 relative"
               >
+               <vs-button
+                  class="save-product"
+                  color="#D1D5DB"
+                  type="flat"
+                  icon-pack="fal"
+                  icon=" fa-bookmark"    
+                ></vs-button>
                 <div class="img-course">
                   <a class="img-thum" href="">
                     <img src="@/assets/img/product/02.png" alt="" />
@@ -581,11 +613,18 @@
                 </div>
               </div>
               <div
-                class="item-course border border-cool-100 rounded-lg hover:shadow-xl mb-10 mt-2"
+                class="item-course border border-cool-100 rounded-lg hover:shadow-xl mb-10 mt-2 relative"
               >
+               <vs-button
+                  class="save-product"
+                  color="#D1D5DB"
+                  type="flat"
+                  icon-pack="fal"
+                  icon=" fa-bookmark"    
+                ></vs-button>
                 <div class="img-course">
                   <a class="img-thum" href="">
-                    <img src="@/assets/img/product/04.png" alt="" />
+                    <img src="@/assets/img/product/02.png" alt="" />
                   </a>
                 </div>
                 <div class="title-course px-4 my-4 h-13 overflow-hidden">
@@ -604,11 +643,18 @@
                 </div>
               </div>
               <div
-                class="item-course border border-cool-100 rounded-lg hover:shadow-xl mb-10 mt-2"
+                class="item-course border border-cool-100 rounded-lg hover:shadow-xl mb-10 mt-2 relative"
               >
+               <vs-button
+                  class="save-product"
+                  color="#D1D5DB"
+                  type="flat"
+                  icon-pack="fal"
+                  icon=" fa-bookmark"    
+                ></vs-button>
                 <div class="img-course">
                   <a class="img-thum" href="">
-                    <img src="@/assets/img/product/03.png" alt="" />
+                    <img src="@/assets/img/product/02.png" alt="" />
                   </a>
                 </div>
                 <div class="title-course px-4 my-4 h-13 overflow-hidden">
@@ -626,6 +672,38 @@
                   </p>
                 </div>
               </div>
+              <div
+                class="item-course border border-cool-100 rounded-lg hover:shadow-xl mb-10 mt-2 relative"
+              >
+               <vs-button
+                  class="save-product"
+                  color="#D1D5DB"
+                  type="flat"
+                  icon-pack="fal"
+                  icon=" fa-bookmark"    
+                ></vs-button>
+                <div class="img-course">
+                  <a class="img-thum" href="">
+                    <img src="@/assets/img/product/02.png" alt="" />
+                  </a>
+                </div>
+                <div class="title-course px-4 my-4 h-13 overflow-hidden">
+                  <a class="title-p text-cool-800" href="">
+                    <h3 class="text-right font-black text-sm">
+                      ۰ تا ۱۰۰ آموزش کسب و کار اینترنتی، دوره جامع وبمستران
+                      هوشمند
+                    </h3>
+                  </a>
+                </div>
+                <div class="des-course px-4 pb-4 h-15 overflow-hidden ">
+                  <p class="text-xs text-cool-600 font-thin text-right">
+                    آموزش جامع ساخت و مدیریت کسب و کار اینترنتی، اصول بازاریابی
+                    و رساندن سایت و
+                  </p>
+                </div>
+              </div>
+              
+              
             </carousel>
           </div>
         </div>
@@ -811,3 +889,5 @@ export default {
   },
 };
 </script>
+
+

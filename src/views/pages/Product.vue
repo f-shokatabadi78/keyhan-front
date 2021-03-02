@@ -1,6 +1,5 @@
 <template>
   <div class="single-product-page mt-2">
-    
     <section class="landing-product">
       <div class="container mx-auto">
         <div class="grid grid-cols-12 gap-30">
@@ -32,20 +31,20 @@
               ></vs-button>
               <div class="gallery-product ltr">
                 <carousel
+                :navText="['','']"
                 :items="1"
                 :autoplayHoverPause="true"
-                :autoplay="true"
+                :autoplay="false"
                 :nav="true"
                 :margin="30"
-                :loop="true"
+                :loop="false"
                 :dots="false"
               >
-                
+
+                <img src="@/assets/img/product/img-p01.jpg" />
                 <img src="@/assets/img/product/img-p02.jpg" />
                 <img src="@/assets/img/product/img-p02.jpg" />
-                <img src="@/assets/img/product/img-p02.jpg" />
-                
-                
+
               </carousel>
               </div>
             </div>
@@ -336,7 +335,7 @@ export default {
     return {
       popupActivo:false,
       number1:1,
-      colorx:'#F97316'
+      colorx:'#EF4444'
     };
   },
   name: "Home",
