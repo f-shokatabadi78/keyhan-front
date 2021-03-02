@@ -21,8 +21,8 @@
         <p class="text-sm text-cool-500 font-thin mt-2">302532659874001</p>
       </div>
       <div class="col-span-12 md:col-span-6 lg:col-span-12 text-right md:text-center">
-        <h5>کد رهگیری مرسوله</h5>
-        <p class="text-sm text-cool-500 font-thin mt-2">302532659874001</p>
+        <h5>آدرس پستی</h5>
+        <p class="text-sm text-cool-500 font-thin mt-2">خراسان جنوبی - بیرجند - خیابان مطهری - مطهری 5 - پ 10</p>
       </div>
 
     </div>

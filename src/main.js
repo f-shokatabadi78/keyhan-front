@@ -1,5 +1,5 @@
 import Vue from 'vue'
-import App from './main.vue'
+import App from './app.vue'
 import router from './router'
 import './assets/css/style.css' //tailwind
 import './assets/css/fontawesome.min.css' //fontawesome

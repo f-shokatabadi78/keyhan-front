@@ -762,7 +762,29 @@ display: block;
 .con-img-upload{
   padding: 0 !important;
 }
+/* login */
+.login-page::before{
+  content: "";
+  width: 100%;
+  height: 320px;
+  position: absolute;
+  bottom: 0;
+  @apply bg-cool-200;
+  z-index: 0;
 
+}
+.login-page .vs-input--placeholder.large{
+  padding: 17px 10px !important;
+}
+.login-page .vuesax-app-is-rtl .vs-input--icon.icon-after{
+  left: 15px;
+}
+.login-page .vs-input--icon{
+  top: 13px !important;
+}
+.login-page button{
+  min-width: 185px;
+}
 /* // Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 639.98px) {
   .logo-area img{
