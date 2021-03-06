@@ -204,72 +204,8 @@
           <div class="btntocomment mt-5 text-center">
             <vs-button color="#4B5563" type="border">در بحث و گفتگو در رابطه با این مطلب شرکت کنید</vs-button>
           </div>  
-          </div>
-          <div class="sidebar md:col-span-3 col-span-12 mt-5 md:mt-0">
-            <div
-              class="col-cat p-4 rounded-lg border border-cool-100 text-cool-600"
-            >
-              <h3
-                class="title-border relative text-base font-black text-cool-800 inline-block border-b-2 border-cool-600 pb-2 pl-0 lg:pl-5 "
-              >
-                دسته بندی ها
-              </h3>
-              <div class="footer-menu mt-5">
-                <ul>
-                  <li>
-                    <a href="">
-                      ارتباط با ما
-                    </a>
-                  </li>
-                  <li>
-                    <a href="">
-                      تماس با ما
-                    </a>
-                  </li>
-                  <li>
-                    <a href="">
-                      قوانین و مقررات
-                    </a>
-                  </li>
-                  <li>
-                    <a href="">
-                      مرجوعی
-                    </a>
-                  </li>
-                  <li>
-                    <a href="">
-                      غرفه ما در دیجی کالا
-                    </a>
-                  </li>
-                  <li>
-                    <a href="">
-                      غرفه ما در باسلام
-                    </a>
-                  </li>
-                  <li>
-                    <a href="">
-                      کلید و پریزهای لمسی
-                    </a>
-                  </li>
-                  <li>
-                    <a href="">
-                      پنل های خورشیدی
-                    </a>
-                  </li>
-                  <li>
-                    <a href="">
-                      برندهای موجود در صنعت برق
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="banner-ads p-4 rounded-lg border border-cool-100 mt-5">
-              <a href="">
-                <img class="rounded-lg mx-auto" src="@/assets/img/banner/okok.jpg" alt="">
-              </a>
-            </div>
-          </div>
+          </div>       
+          <sideblog></sideblog>
         </div>
       </div>
     </section>
@@ -286,104 +222,7 @@
         </div>
       </div>
     </section>
-    <section class="blog-row">
-      <div class="container mx-auto">
-        <div class="grid grid-cols-12 gap-5 md:gap-30">
-              <article
-                class="col-span-6 md:col-span-4 lg:col-span-3 overflow-hidden item-blog border border-cool-100 rounded-lg hover:shadow-xl"
-              >
-                <div class="img-blog">
-                  <a class="img-thum" href="">
-                    <img src="@/assets/img/product/02.png" alt="" />
-                  </a>
-                </div>
-                <div class="title-blog px-4 my-4 h-13 overflow-hidden">
-                  <a class="title-blog text-cool-800" href="">
-                    <h3 class="text-right font-black text-sm">
-                      ۰ تا ۱۰۰ آموزش کسب و کار اینترنتی، دوره جامع وبمستران
-                      هوشمند
-                    </h3>
-                  </a>
-                </div>
-                <div class="des-course px-4 pb-4 h-15 overflow-hidden ">
-                  <p class="text-xs text-cool-600 font-thin text-right">
-                    آموزش جامع ساخت و مدیریت کسب و کار اینترنتی، اصول بازاریابی
-                    و رساندن سایت و
-                  </p>
-                </div>
-              </article>
-              <article
-                class="col-span-6 md:col-span-4 lg:col-span-3 overflow-hidden item-blog border border-cool-100 rounded-lg hover:shadow-xl"
-              >
-                <div class="img-blog">
-                  <a class="img-thum" href="">
-                    <img src="@/assets/img/product/02.png" alt="" />
-                  </a>
-                </div>
-                <div class="title-blog px-4 my-4 h-13 overflow-hidden">
-                  <a class="title-blog text-cool-800" href="">
-                    <h3 class="text-right font-black text-sm">
-                      ۰ تا ۱۰۰ آموزش کسب و کار اینترنتی، دوره جامع وبمستران
-                      هوشمند
-                    </h3>
-                  </a>
-                </div>
-                <div class="des-course px-4 pb-4 h-15 overflow-hidden ">
-                  <p class="text-xs text-cool-600 font-thin text-right">
-                    آموزش جامع ساخت و مدیریت کسب و کار اینترنتی، اصول بازاریابی
-                    و رساندن سایت و
-                  </p>
-                </div>
-              </article>
-              <article
-                class="col-span-6 md:col-span-4 lg:col-span-3 overflow-hidden item-blog border border-cool-100 rounded-lg hover:shadow-xl"
-              >
-                <div class="img-blog">
-                  <a class="img-thum" href="">
-                    <img src="@/assets/img/product/02.png" alt="" />
-                  </a>
-                </div>
-                <div class="title-blog px-4 my-4 h-13 overflow-hidden">
-                  <a class="title-blog text-cool-800" href="">
-                    <h3 class="text-right font-black text-sm">
-                      ۰ تا ۱۰۰ آموزش کسب و کار اینترنتی، دوره جامع وبمستران
-                      هوشمند
-                    </h3>
-                  </a>
-                </div>
-                <div class="des-course px-4 pb-4 h-15 overflow-hidden ">
-                  <p class="text-xs text-cool-600 font-thin text-right">
-                    آموزش جامع ساخت و مدیریت کسب و کار اینترنتی، اصول بازاریابی
-                    و رساندن سایت و
-                  </p>
-                </div>
-              </article>
-              <article
-                class="col-span-6 md:col-span-4 lg:col-span-3 overflow-hidden item-blog border border-cool-100 rounded-lg hover:shadow-xl"
-              >
-                <div class="img-blog">
-                  <a class="img-thum" href="">
-                    <img src="@/assets/img/product/02.png" alt="" />
-                  </a>
-                </div>
-                <div class="title-blog px-4 my-4 h-13 overflow-hidden">
-                  <a class="title-blog text-cool-800" href="">
-                    <h3 class="text-right font-black text-sm">
-                      ۰ تا ۱۰۰ آموزش کسب و کار اینترنتی، دوره جامع وبمستران
-                      هوشمند
-                    </h3>
-                  </a>
-                </div>
-                <div class="des-course px-4 pb-4 h-15 overflow-hidden ">
-                  <p class="text-xs text-cool-600 font-thin text-right">
-                    آموزش جامع ساخت و مدیریت کسب و کار اینترنتی، اصول بازاریابی
-                    و رساندن سایت و
-                  </p>
-                </div>
-              </article>
-        </div>
-      </div>
-    </section>
+        <singleblog :singleblogprops="blogarray"></singleblog>
     <section class="title-section mt-24 mb-3 relative">
       <div class="container mx-auto">
         <div class="grid grid-cols-2 gap-30">
@@ -397,90 +236,30 @@
         </div>
       </div>
     </section>
-    <section class="comment-row">
-      <div class="container mx-auto">
-        <div class="grid grid-cols-12 gap-30 p-4 rounded-lg rounded-r-none border border-cool-100 text-cool-600">
-          <div class="col-span-12 md:col-span-6">
-            <div class="comment-item level-1 relative grid md:grid-cols-5 gap-4 rounded-lg bg-cool-100 p-4">
-              <div class="img-comment md:col-span-1">
-                <img class="inline-block rounded-lg" src="@/assets/img/product/avatar.jpg" alt="">
-              </div>
-              <div class="info-comment md:col-span-4">
-                <h5 class="inline-block text-base font-bold">تکتم حیدرزاده</h5>
-                <p class="commment-text text-sm font-thin mt-3">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و </p>
-                <a class="reply absolute top-3 left-3 text-cool-500 hover:text-orange-500" href=""><i class="fal fa-reply"></i></a>
-              </div>
-            </div>
-            <div class="comment-item level-2 relative grid md:grid-cols-5 gap-4 rounded-lg bg-cool-100 p-4 mr-10 mt-3">
-              <div class="img-comment md:col-span-1">
-                <img class="inline-block rounded-lg" src="@/assets/img/product/avatar.jpg" alt="">
-              </div>
-              <div class="info-comment md:col-span-4">
-                <h5 class="inline-block text-base font-bold">تکتم حیدرزاده</h5>
-                <p class="commment-text text-sm font-thin mt-3">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و </p>
-                <a class="reply absolute top-3 left-3 text-cool-500 hover:text-orange-500" href=""><i class="fal fa-reply"></i></a>
-              </div>
-            </div>
-             <div class="comment-item level-3 relative grid md:grid-cols-5 gap-4 rounded-lg bg-cool-100 p-4 mr-10 mt-3">
-               <div class="opacity-comment opacity-50 border-cool-400 border-b pb-4 border-dashed col-span-5 grid grid-cols-5 gap-15">
-                  <div class="img-comment col-span-1">
-                    <img class="inline-block rounded-lg image-comment" src="@/assets/img/product/avatar.jpg" alt="">
-                  </div>
-                  <div class="info-comment col-span-4">
-                    <h5 class="inline-block text-base font-bold">تکتم حیدرزاده</h5>
-                    <p class="commment-text text-sm font-thin mt-3">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و </p>
-                  </div>
-               </div>
-               
-               <div class="comment-item relative col-span-5 grid md:grid-cols-5 gap-4 rounded-lg bg-cool-100">
-              <div class="img-comment md:col-span-1">
-                <img class="inline-block rounded-lg" src="@/assets/img/product/avatar.jpg" alt="">
-              </div>
-              <div class="info-comment md:col-span-4">
-                <h5 class="inline-block text-base font-bold">تکتم حیدرزاده</h5>
-                <p class="commment-text text-sm font-thin mt-3">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و </p>
-                <a class="reply absolute top-0 left-0 text-cool-500 hover:text-orange-500" href=""><i class="fal fa-reply"></i></a>
-              </div>
-            </div>
-              
-            </div>
-            <div class="paganition mt-5 mx-auto">
-                  <vs-pagination :total="12" icon-pack="fal" 
-                  prev-icon="fa-arrow-right" next-icon="fa-arrow-left" :color="colorx" v-model="currentx"></vs-pagination>
-            </div>
-          </div>
-          <div class="col-span-12 md:col-span-6">
-            <div class="form-contact">
-              <vs-input
-                class="contactform"
-                placeholder="نام و نام خانوادگی"
-                v-model="value1"
-                size="small"
-              />
-               <vs-input
-                class="contactform mt-3"
-                placeholder="پست الکترونیک شما"
-                v-model="value1"
-                size="small"
-              />
-              <vs-textarea  class="contactform mt-3" label="دیدگـــاه شما" height="200px" />
-               <div class="mt-3 text-sm">
-                <vs-button color="#F97316" type="filled">ثبت نظـــر شما</vs-button>
-               </div>
-            </div>
-          
-          </div>
-        </div>
-      </div>
-    </section>
+    <comment></comment>
   </div>
 </template>
 <script>
-export default {
-  data: ()=>({
-    colorx: '#F97316',
-    currentx: 7,
-    value1: "",
-  })
-}
+import singleblog from "../../components/Home/single-blog.vue";
+import comment from "../../components/comment.vue";
+import sideblog from "../../components/side-blog.vue";
+  export default {
+    data() {
+      return{
+        blogarray:[
+          { img: require('@/assets/img/product/02.png') ,title:"  ۰ تا ۱۰۰ آموزش کسب و کار اینترنتی، دوره جامع وبمستران هوشمند " ,href:"#" ,desc:" آموزش جامع ساخت و مدیریت کسب و کار اینترنتی، اصول بازاریابی و رساندن سایت و "},
+          { img: require('@/assets/img/product/03.png') ,title:"  ۰ تا ۱۰۰ آموزش کسب و کار اینترنتی، دوره جامع وبمستران هوشمند " ,href:"#" ,desc:" آموزش جامع ساخت و مدیریت کسب و کار اینترنتی، اصول بازاریابی و رساندن سایت و "},
+          { img: require('@/assets/img/product/04.png') ,title:"  ۰ تا ۱۰۰ آموزش کسب و کار اینترنتی، دوره جامع وبمستران هوشمند " ,href:"#" ,desc:" آموزش جامع ساخت و مدیریت کسب و کار اینترنتی، اصول بازاریابی و رساندن سایت و "},
+          { img: require('@/assets/img/product/03.png') ,title:"  ۰ تا ۱۰۰ آموزش کسب و کار اینترنتی، دوره جامع وبمستران هوشمند " ,href:"#" ,desc:" آموزش جامع ساخت و مدیریت کسب و کار اینترنتی، اصول بازاریابی و رساندن سایت و "},
+        ],
+        value1: "",
+      }
+    },
+    components:{
+      singleblog,
+      comment,
+      sideblog,
+    }
+  }
+
 </script>

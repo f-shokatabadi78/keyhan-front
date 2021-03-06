@@ -172,18 +172,7 @@ width: 100%;
   border-radius: 8px;
 }
 /* ctg-services */
-.ctg-services::before{
-  content: "";
-  width: 100%;
-  height: 50%;
-  position: absolute;
-  top: 180px;
-  background: -moz-linear-gradient(to bottom,#f3f4f6 , #fff) ;
-  background: -webkit-linear-gradient(to bottom,#f3f4f6 , #fff) ;
-  z-index: -1;
-  background: linear-gradient(to bottom,#f3f4f6 , #fff) ;
 
-}
 .link-cat ,.brands-item{
   transform: translateY(0px);
   display: block;
