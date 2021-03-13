@@ -29,7 +29,7 @@
       </div>
     </section>
     <product-slider :psliderprops="psliderarray" ></product-slider>
-    <!-- course carousel --> 
+    <!-- course carousel -->
     <section class="title-section mt-10 relative">
       <div class="container mx-auto">
         <div class=" grid grid-cols-2 gap-30">
@@ -86,7 +86,7 @@ import categoryp from "../../components/Home/catproduct.vue";
 import productSlider from "../../components/Home/product-slider.vue";
 import courseSlider from "../../components/Home/course-slider.vue";
 import contact from "../../components/Home/contact.vue";
-import singleblog from "../../components/Home/single-blog.vue";
+import singleblog from "../../components/blog/single-blog.vue";
 import brands from "../../components/Home/brands.vue"
 
 

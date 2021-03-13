@@ -2,9 +2,8 @@
     <section class="blog-row">
       <div class="container mx-auto">
         <div class=" grid grid-cols-12 gap-5 md:gap-30">
-            <article v-for="(blog , index ) in $props.singleblogprops" :key="index"
-            class="col-span-6 md:col-span-4 lg:col-span-3 overflow-hidden item-blog border border-cool-100 rounded-lg hover:shadow-xl mb-5"
-            >
+          <article v-for="(blog , index ) in $props.singleblogprops" :key="index"
+            class="col-span-6 md:col-span-4 lg:col-span-3 overflow-hidden item-blog border border-cool-100 rounded-lg hover:shadow-xl mb-5">
             <div class="img-blog">
                 <a class="img-thum" :href="blog.href">
                 <img :src="blog.img" alt="" />
@@ -22,7 +21,7 @@
                 {{blog.desc}}
                 </p>
             </div>
-            </article>
+          </article>
         </div>
 
       </div>

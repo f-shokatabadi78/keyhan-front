@@ -203,8 +203,8 @@
           </div>
           <div class="btntocomment mt-5 text-center">
             <vs-button color="#4B5563" type="border">در بحث و گفتگو در رابطه با این مطلب شرکت کنید</vs-button>
-          </div>  
-          </div>       
+          </div>
+          </div>
           <sideblog></sideblog>
         </div>
       </div>
@@ -222,7 +222,7 @@
         </div>
       </div>
     </section>
-        <singleblog :singleblogprops="blogarray"></singleblog>
+        <singleblog :singleblogprops="blogarray"/>
     <section class="title-section mt-24 mb-3 relative">
       <div class="container mx-auto">
         <div class="grid grid-cols-2 gap-30">
@@ -240,7 +240,7 @@
   </div>
 </template>
 <script>
-import singleblog from "../../components/Home/single-blog.vue";
+import singleblog from "../../components/blog/single-blog.vue";
 import comment from "../../components/comment.vue";
 import sideblog from "../../components/side-blog.vue";
   export default {
