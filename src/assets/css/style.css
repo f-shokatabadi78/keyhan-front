@@ -811,6 +811,9 @@ display: block;
     display: none;
     color: #F97316;
   }
+  .archive-product .img-product img{
+    max-height: 86px;
+  }
 }
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 640px) and (max-width: 767.98px) {
@@ -829,6 +832,9 @@ display: block;
     padding: 10px 8px;
     font-weight: 300;
   }
+  .archive-product .img-product img{
+    max-height: 120px;
+  }
 }
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 1023.98px) {
@@ -842,6 +848,9 @@ display: block;
   .starRating:not(old) > input{
     margin-right : -23px;
     opacity      : 0;
+  }
+  .archive-product .img-product img{
+    max-height: 108px;
   }
 }
 

@@ -75,7 +75,7 @@
                     مشاهـــــده جزئیات</vs-button
                   >
                 </div>
-              </div>
+    </div>
 </template>
 <script>
 export default {
